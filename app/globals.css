@@ -25,3 +25,45 @@ body {
     text-wrap: balance;
   }
 }
+
+
+/* styles/globals.css or your main CSS file */
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  position: relative;
+  min-width: 50%;
+}
+
+/* Media query for tablets (768px to 1024px) */
+@media (max-width: 1024px) {
+  .embla__slide {
+    min-width: 100%;
+  }
+}
+
+/* Media query for mobile (max-width 767px) */
+@media (max-width: 767px) {
+  .embla__slide {
+    min-width: 100%;
+  }
+}
+
+@keyframes scalePulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.animate-scalePulse {
+  animation: scalePulse 2s ease-in-out infinite;
+}
