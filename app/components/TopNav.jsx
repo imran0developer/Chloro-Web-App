@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { CiSearch } from "react-icons/ci";
 import { IoIosMenu, IoMdClose } from "react-icons/io";
 import Logo from './Logo';
-import { Main } from 'next/document';
 
 const TopNav = ({ currentPage }) => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);

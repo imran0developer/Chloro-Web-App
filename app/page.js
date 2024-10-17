@@ -1,6 +1,6 @@
 'use client'
 import React from "react"; // Import useState
-import TopNav from "./utils/TopNav";
+import TopNav from "./components/TopNav";
 
 import HeroSection from "./components/HeroSection";
 
