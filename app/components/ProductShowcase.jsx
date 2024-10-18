@@ -9,7 +9,7 @@ const ProductShowcase = () => {
         className="absolute inset-0 bg-cover bg-fixed " 
         style={{
           backgroundImage: "url('https://askproject.net/chloro/wp-content/uploads/sites/23/2021/08/beautiful-woman-with-closed-eyes-posing-with-green-ZDTECGT.jpg')",
-          opacity: 0.8, // Image opacity
+          opacity: 0.8,
         }}
       />
         {/* Tint Overlay */}

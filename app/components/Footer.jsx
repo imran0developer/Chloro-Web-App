@@ -14,7 +14,7 @@ const Footer = () => {
           
           {/* Social Media Icons */}
           <div className="flex space-x-4">
-            {/* Social media images - you can replace the src with actual paths */}
+            {/* Social media images*/}
             <Image src="https://www.svgrepo.com/show/444570/social-instagram.svg" alt="Instagram" width={24} height={24} />
             <Image src="https://www.svgrepo.com/show/362167/social-youtube.svg" alt="YouTube" width={24} height={24} />
             <Image src="https://www.svgrepo.com/show/444567/social-facebook.svg" alt="Facebook" width={24} height={24} />

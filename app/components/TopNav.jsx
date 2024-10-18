@@ -49,7 +49,7 @@ const TopNav = ({ currentPage }) => {
           {/* Mobile Menu */}
           {isMobileMenuOpen && (
         <div className='lg:hidden pt-16 w-full bg-[#023A15] text-center py-5'>
-          <ul className='flex items-center justify-center gap-16 text-[16px] font-medium'>
+          <ul className='flex items-center justify-center gap-2 md:gap-16 lg:gap-16 text-[16px] font-medium'>
             <li onClick={toggleMobileMenu} className={`text-gray-400 hover:text-white ${isActive('Home')}`}>Home</li>
             <li onClick={toggleMobileMenu} className={`text-gray-400 hover:text-white ${isActive('About')}`}>About</li>
             <li onClick={toggleMobileMenu} className={`text-gray-400 hover:text-white ${isActive('Services')}`}>Services</li>

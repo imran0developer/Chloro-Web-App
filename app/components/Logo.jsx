@@ -9,7 +9,6 @@ const Logo = () => {
                 height={30}
                 src="https://askproject.net/chloro/wp-content/uploads/sites/23/2021/08/logo_Asset-1-1024x283.png"
                 alt="Company Logo"
-                className="" // Responsive classes
             />
         </div>
     );

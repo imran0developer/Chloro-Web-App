@@ -1,4 +1,4 @@
-// components/AutomaticImageCarousel.js
+
 import React, { useEffect } from 'react';
 import Image from 'next/image';
 import useEmblaCarousel from 'embla-carousel-react';

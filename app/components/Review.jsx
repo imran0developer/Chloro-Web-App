@@ -19,7 +19,7 @@ const Review = () => {
                     width={200}
                     src="https://askproject.net/chloro/wp-content/uploads/sites/23/2021/08/Asset-4_2.png"
                     alt="Description of the image"
-                    className=" w-1/3 lg:w-full object-contain" // Ensure image fits within its container
+                    className=" w-1/3 lg:w-full object-contain"
                 />
           </div>
           <ReviewsCorousel />

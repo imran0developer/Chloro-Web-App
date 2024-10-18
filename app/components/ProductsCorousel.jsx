@@ -22,7 +22,7 @@ const ProductsCorousel = () => {
 
         const autoplay = setInterval(() => {
             emblaApi.scrollNext();
-        }, 3000); // Change slide every 6 seconds
+        }, 3000); // Change slide every 3 seconds
 
         return () => clearInterval(autoplay);
     }, [emblaApi]);

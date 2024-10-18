@@ -39,7 +39,7 @@ function HeroSection(PrimaryFont, SecondaryFont) {
                                 width={300}
                                 src="https://askproject.net/chloro/wp-content/uploads/sites/23/2021/08/Asset-4_2.png"
                                 alt="Description of the image"
-                                className="w-[160px] md:w-[200px] lg:max-w-full object-contain" // Ensure image fits within its container
+                                className="w-[160px] md:w-[200px] lg:max-w-full object-contain"
                             />
                         </div>
                     </h1>
